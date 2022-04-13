@@ -24,11 +24,28 @@ body {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
   text-decoration: none;
 }
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid 2px tomato;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 /* --------------------Site nav---------------------- */
 
 .header-logo {
@@ -74,23 +91,37 @@ body {
 
 .hero {
   background-color: var(--primary-grey-color);
+  text-align: center;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
+  margin: 0;
+  margin-bottom: 30px;
+  padding-top: 200px;
 }
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0;
+  min-width: 200px;
+  height: 50px;
   font-family: inherit;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+}
+
+.div-btn {
+  padding-bottom: 200px;
 }
 /* --------------------Features section---------------------- */
 
@@ -101,6 +132,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
 .features-text {
@@ -118,6 +150,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin: 0;
+  margin-bottom: 50px;
 }
 
 /* --------------------Team section---------------------- */
@@ -131,6 +165,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
 
 .team-item-title {
@@ -139,6 +175,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .team-item-text {
   font-size: 16px;
@@ -165,7 +202,10 @@ body {
 }
 .footer-adress {
   font-style: normal;
+  padding-bottom: 60px;
+  margin-top: 20px;
 }
+
 .footer-adress-link {
   font-size: 14px;
   line-height: 1.71;
@@ -182,6 +222,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+  padding-top: 9px;
 }
 
 .footer-contacts-link:hover,
@@ -197,10 +238,16 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: 0;
+  height: 38px;
+  min-width: 73px;
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
   font-family: inherit;
   cursor: pointer;
+  padding: 6px 22px;
+  text-align: center;
 }
 .filtres-btn:hover,
 .filtres-btn:focus {
