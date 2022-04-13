@@ -1,0 +1,223 @@
+/* цвет основного текста  #757575 */
+/* вторичный цвет текста  #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* основной фон #FFFFFF */
+/* вторичный фон #F5F4FA */
+/* серый #2F303A */
+/* контакты футера rgba(255, 255, 255, 0.6) */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-grey-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family: 'roboto', 'sans serif';
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* --------------------Site nav---------------------- */
+
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-logo-web {
+  color: var(--accent-color);
+}
+
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contacts-nav-link:hover,
+.contacts-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* --------------------Main sections---------------------- */
+
+/* --------------------Hero section---------------------- */
+
+.hero {
+  background-color: var(--primary-grey-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+/* --------------------Features section---------------------- */
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* --------------------Works section---------------------- */
+
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* --------------------Team section---------------------- */
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* --------------------Footer section---------------------- */
+
+.footer {
+  background-color: var(--primary-grey-color);
+}
+.footer-logo-web {
+  color: var(--accent-color);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.footer-adress {
+  font-style: normal;
+}
+.footer-adress-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.footer-adress-link:hover,
+.footer-adress-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/* --------------------Portfolio---------------------- */
+/* --------------------Filtres section---------------------- */
+
+.filtres-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  font-family: inherit;
+  cursor: pointer;
+}
+.filtres-btn:hover,
+.filtres-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.filtres-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-text-color);
+  letter-spacing: 0.06em;
+}
+
+.filtres-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
