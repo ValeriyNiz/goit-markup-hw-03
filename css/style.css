@@ -53,9 +53,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  min-height: 80px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-logo {
@@ -90,8 +87,9 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav-link:hover,
 .site-nav-link:focus {
@@ -135,7 +133,6 @@ img {
 }
 
 .hero-container {
-  min-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -269,7 +266,6 @@ img {
 }
 
 .footer-container {
-  min-height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -305,7 +301,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
-  padding-top: 9px;
 }
 
 .footer-contacts-link:hover,
